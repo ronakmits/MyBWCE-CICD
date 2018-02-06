@@ -6,7 +6,7 @@
     <groupId>com.tibco.bw</groupId>
     <artifactId>BWCLogging_401.application.parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <relativePath>..\BWCLogging_401.application.parent</relativePath>
+    <relativePath>../BWCLogging_401.application.parent</relativePath>
   </parent>
   <artifactId>BWCLogging_401</artifactId>
   <packaging>bwmodule</packaging>

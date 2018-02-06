@@ -7,8 +7,8 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>..\BWCLogging_401</module>
-    <module>..\BWCLogging_401.application</module>
+    <module>../BWCLogging_401</module>
+    <module>../BWCLogging_401.application</module>
   </modules>
   <build>
     <plugins>
