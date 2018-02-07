@@ -10,6 +10,13 @@
   </parent>
   <artifactId>BWCLogging_401</artifactId>
   <packaging>bwmodule</packaging>
+  <properties>
+    <!--<sonar.projectKey>${project.artifactId}_${project.version}</sonar.projectKey>
+	<sonar.projectName>${project.artifactId}</sonar.projectName>
+	<sonar.projectVersion>${project.version}</sonar.projectVersion>-->
+	<sonar.sources>.</sonar.sources>
+	<sonar.language>xml</sonar.language>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>com.tibco.plugins</groupId>
@@ -21,6 +28,11 @@
     <sourceDirectory>src</sourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.4.0.905</version>
+      </plugin>
       <plugin>
         <groupId>com.tibco.plugins</groupId>
         <artifactId>bw6-maven-plugin</artifactId>
